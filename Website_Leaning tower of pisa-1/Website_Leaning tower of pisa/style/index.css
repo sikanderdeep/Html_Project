@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+background-image: url("images/Leaning-Tower-of-Pisa.jpg.webp")  ;
+width: 97%;
+height: 75%;
+border: 3px solid black;
+border-radius: 15px;
+
+margin: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.pisa{
+text-align: center;
+font-size: 200px;
+margin: 140px 0px;
+color: rgb(255, 254, 254);
+}
+.list{
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding: 10px 40px;
+    float: right;
+    
+    background: rgb(3, 3, 3);
+}
+.list:hover{
+    background: #000;
+    color: aliceblue;
+}
+img{
+    height: 250px;
+    width: 625px;
+    padding: 100px 500px;
+}
+footer{
+    background: #5dade2;
+    padding: 15px 100px;
+    border: 2px solid rgb(23, 128, 173);
+}
+.foot{
+    list-style: none;
+    font-size: 13px;
+}
+.niagra{
+    padding:0px 400px;
+    text-decoration: none;
+}
+.a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.td1{
+    height: 600px;
+    font-size: 20px;
+    width: 52%;
+    padding: 20px 80px;
+    border-radius: 25px;
+    margin-right: 20px;
+    float: left;
+    box-shadow: 5px 5px ;
+    height: 900px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+.td2{
+    text-align: center;
+    height: 300px;
+    width: 16%;
+    background:  #5dade2;
+    padding: 20px 80px;
+    border-radius: 25px;
+    margin: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 5px 10px 8px #888888;
+}
+.li{
+    list-style: none;
+    text-decoration: none;
+    padding: 1px 10px;
+    margin: 40px;
+    font-size: 20px;
+}
+a{
+    padding: 5px 14px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+a:hover{
+    color: grey;
+    background: white;
+}
